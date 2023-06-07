@@ -1,0 +1,29 @@
+.dropdown-toggle::after {
+    display: none;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filters span.active {
+    color: blue;
+}
+
+.filters span {
+    font-size: 15px;
+    color: #444444;
+    cursor: pointer;
+}
+
+.filters span:hover{
+    color: red;
+}
